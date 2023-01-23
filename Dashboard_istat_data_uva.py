@@ -188,6 +188,25 @@ navbar = dbc.Row(
     sm = 12, lg = 12, md= 12, xs =12, xl =12)
 )
 
+h1_regioni = html.Div(
+    children = 
+    [
+        html.H1('Regioni')
+    ],
+    style = {'align-items': 'center'}
+)  
+
+
+h1_provincie = html.Div(
+    children = 
+    [
+        html.H1('Provincie')
+    ],
+    style = {'align-items': 'center'}
+)  
+
+
+
 
 #################### griglia #######################################################
 
@@ -341,7 +360,10 @@ def update_graph(selected_year):
 app.layout = html.Div(children =
                       [
     navbar,
+                          
     html.Br(),
+    
+    html.Br(),                      
     grid,
     html.Br(),
     html.Br(),
