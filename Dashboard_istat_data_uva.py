@@ -197,14 +197,6 @@ h1_regioni = html.Div(
 )  
 
 
-h1_provincie = html.Div(
-    children = 
-    [
-        html.H1('Provincie')
-    ],
-    style = {'align-items': 'center'}
-)  
-
 
 
 
@@ -360,9 +352,7 @@ def update_graph(selected_year):
 app.layout = html.Div(children =
                       [
     navbar,
-                          
     html.Br(),
-    
     html.Br(),                      
     grid,
     html.Br(),
