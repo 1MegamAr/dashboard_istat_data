@@ -157,7 +157,7 @@ bar_reg = html.Div(
 
 ######################################### app layout ###################################
 app = dash.Dash(name = __name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-#server = app.server
+server = app.server
 
 navbar = dbc.Row(
     dbc.Col(
